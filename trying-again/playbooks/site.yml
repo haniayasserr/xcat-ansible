@@ -1,0 +1,19 @@
+---
+- name: Setup xCAT Management Node
+  hosts: all # Match inventory
+  become: yes
+  gather_facts: yes
+
+  pre_tasks:
+    - name: Update package cache (Ubuntu)
+      apt:
+        update_cache: yes
+      when: ansible_os_family == "Debian"
+
+  roles:
+    - xcat-management
+
+  post_tasks:
+    - name: Display xCAT installation status
+      debug:
+        msg: "xCAT management node setup completed successfully"

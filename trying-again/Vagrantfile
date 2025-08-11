@@ -1,0 +1,32 @@
+Vagrant.configure("2") do |config|
+  # Define the VM
+  config.vm.define "xcat-ansible" do |node|
+    node.vm.box = "ubuntu/focal64"  # or your preferred box
+    node.vm.hostname = "xcat-ansible"
+    
+    # Network configuration
+    node.vm.network "private_network", ip: "192.168.56.60"
+    
+    # VM resources
+    node.vm.provider "virtualbox" do |vb|
+      vb.memory = "2048"
+      vb.cpus = 2
+      vb.name = "xcat-ansible"
+    end
+    
+    # Ansible provisioning
+    node.vm.provision "ansible_local" do |ansible|
+      ansible.playbook = "playbooks/site.yml"
+      # ansible.inventory_path = "inventory/hosts.yml"
+      ansible.limit = "all"
+      ansible.become = true
+      ansible.verbose = "v" 
+      ansible.install = true # Optional: for more detailed output
+      
+      # Optional: Pass extra variables
+      # ansible.extra_vars = {
+      #   some_variable: "some_value"
+      # }
+    end
+  end
+end

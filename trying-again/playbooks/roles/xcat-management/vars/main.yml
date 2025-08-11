@@ -1,0 +1,23 @@
+---
+# Variables for xCAT management role
+
+# xCAT repository configuration
+xcat_core_repo_content: |
+  deb [arch=amd64 trusted=yes] file://{{ xcat_core_dir }} {{ ubuntu_release }}/
+
+xcat_dep_repo_content: |
+  deb [arch=amd64 trusted=yes] file://{{ xcat_dep_dir }} {{ ubuntu_release }}/
+
+# xCAT site table configuration
+site_table_entries:
+  - key: "master"
+    value: "{{ management_node.ip }}"
+  - key: "domain"
+    value: "cluster.local"
+  - key: "nameservers"
+    value: "{{ management_node.ip }}"
+  - key: "dhcpinterfaces"
+    value: "enp0s8"
+  - key: "tftpdir"
+    value: "/tftpboot"
+  - key: "installdir"

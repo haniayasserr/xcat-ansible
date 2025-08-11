@@ -1,0 +1,8 @@
+---
+- name: Install xCAT on Management Node
+  hosts: xcat-ansible
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - xcat-management
