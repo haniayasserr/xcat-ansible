@@ -76,6 +76,9 @@ In the screenshots, you can tell the playbook ran successfully, and after runnin
 ![Screenshot 208](https://raw.githubusercontent.com/haniayasserr/xcat-ansible/main/Screenshot%20(208).png)  
 ![Screenshot 211](https://raw.githubusercontent.com/haniayasserr/xcat-ansible/main/Screenshot%20(211).png)  
 ![Screenshot 204](https://raw.githubusercontent.com/haniayasserr/xcat-ansible/main/Screenshot%20(204).png)  
+
+- I also tested the playbook by running it on the localhost to ensure it works correctly in a local environment.
+- 
 ![Screenshot 206](https://raw.githubusercontent.com/haniayasserr/xcat-ansible/main/Screenshot%20(206).png)  
 
 
