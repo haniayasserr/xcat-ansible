@@ -75,6 +75,8 @@ In the screenshots, you can tell the playbook ran successfully, and after runnin
 ![Screenshot 216](https://raw.githubusercontent.com/haniayasserr/xcat-ansible/main/Screenshot%20(216).png)  
 ![Screenshot 208](https://raw.githubusercontent.com/haniayasserr/xcat-ansible/main/Screenshot%20(208).png)  
 ![Screenshot 211](https://raw.githubusercontent.com/haniayasserr/xcat-ansible/main/Screenshot%20(211).png)  
+![Screenshot 204](https://raw.githubusercontent.com/haniayasserr/xcat-ansible/main/Screenshot%20(204).png)  
+![Screenshot 206](https://raw.githubusercontent.com/haniayasserr/xcat-ansible/main/Screenshot%20(206).png)  
 
 
 
