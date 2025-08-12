@@ -67,7 +67,8 @@ The `xcat-management` role:
 
 ## Output 
 
-Screenshot (215).png
+![Vagrant Init](https://raw.githubusercontent.com/haniayasserr/xcat-ansible/main/trying-again/Screenshot(215).png)
+
 
 ## 📂 Project Structure
 
