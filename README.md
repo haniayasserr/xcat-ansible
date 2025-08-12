@@ -71,6 +71,8 @@ The `xcat-management` role:
 
 
 # tree
+tree
+.
 ├── Vagrantfile
 ├── ansible.cfg
 ├── group_vars
