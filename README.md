@@ -65,6 +65,10 @@ The `xcat-management` role:
 
 ---
 
+## Output 
+
+Screenshot (215).png
+
 ## 📂 Project Structure
 
 
