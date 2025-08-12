@@ -67,7 +67,8 @@ The `xcat-management` role:
 
 ## Output 
 
-![Screenshot 215](https://raw.githubusercontent.com/haniayasserr/xcat-ansible/main/trying-again/Screenshot%28215%29.png)
+![Screenshot 211](https://raw.githubusercontent.com/haniayasserr/xcat-ansible/main/Screenshot%20(211).png)
+
 
 
 
